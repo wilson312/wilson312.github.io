@@ -1,2 +1,9 @@
 h1 {Color: #0000ff;}
 span {Color: #ff0000;}
+marquee {background-image: url("img.jpg");}
+#rebel {color: pink;
+		text-decoration: line-through;}
+.unicorn{background-image: url("img.jpg");
+		height: 500px;
+		width: 500px; }
+#red {background-color: Red;}
