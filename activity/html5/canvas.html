@@ -10,15 +10,23 @@
         // Syntax: ctx.arc(x,y,r,startAngle,endAngle,counterclockwise(boolean) );
         ctx.beginPath();  //start drawing
         ctx.arc(95,50,40,0,2*Math.PI);  //draw arc whose x is 95, y is 50, radius 40, start at 0 angle, end at 2*Math.PI angle
+		ctx.fillStyle = "Black";
+		ctx.fill()
         ctx.stroke();  //end drawing
         ctx.beginPath();  //start drawing
-        ctx.arc(80,40,10,0,2*Math.PI); //draw smaller cirle (because circle above is bigger)
+        ctx.arc(80,40,10,0,2*Math.PI); //draw smaller cirle (because circle above is bigger)0
+		ctx.fillStyle = "Blue";
+		ctx.fill()
         ctx.stroke();  //end drawing
 		ctx.beginPath();  //start drawing
         ctx.arc(110,40,10,0,2*Math.PI); //draw smaller cirle (because circle above is bigger)
+		ctx.fillStyle = "Green";
+		ctx.fill()
         ctx.stroke();  //end drawing
 		ctx.beginPath();  //start drawing
-        ctx.arc(95,60,10,0,1*Math.PI); //draw smaller cirle (because circle above is bigger)
+        ctx.arc(95,70,10,0,1*Math.PI,true); //draw smaller cirle (because circle above is bigger)
+		ctx.fillStyle = "Yellow";
+		ctx.fill()
         ctx.stroke();  //end drawing
         ctx.closePath();
         </script>
