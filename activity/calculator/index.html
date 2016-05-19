@@ -4,6 +4,11 @@
 <link href="../../css/toggle-sidebar.css" rel="stylesheet">
 </head>
   <body>
+     <style>
+        *{
+          width: 100%;
+        }
+      </style>
       <script>
           function toNum(n){
               return parseInt(n);
@@ -31,25 +36,44 @@
   
 	  <div class="container">
     <div class="row">
-        <div class="col-md-6">
-             Num1: <input type="text" id="num1"><br>
-			Num2: <input type="text" id="num2"><br>
-        </div>
-		</div>
-		  <div class="row">
-        <div class="col-md-6">
-    <button type="button" onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)" class="btn btn-primary">Add</button>
+        <div class="col-md-3" >
 	
-	<button onclick="subtract(document.querySelector('#num1').value, document.querySelector('#num2').value)" class="btn btn-primary">Subtract</button>
+             Num1: 
+        </div>
+		   <div class="col-md-9" >
+			     <input type="text" id="num1">
+        </div>
 	</div>
+	<br>
+	    <div class="row">
+        <div class="col-md-3" >
+	
+             Num2: 
+        </div>
+		   <div class="col-md-9" >
+			     <input type="text" id="num1">
+        </div>
 	</div>
-	  <div class="row">
+	<br>
+	 <div class="row">
     <div class="col-md-6">
 	
-	<button onclick="multiply(document.querySelector('#num1').value, document.querySelector('#num2').value)" class="btn btn-primary">Multiply</button>
-	 <button onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)" class="btn btn-primary">Divide</button>
-        </div>
+
+	<button onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)" class="btn btn-primary">Add</button>
+     </div>
+	    <div class="col-md-6">
+	 	<button onclick="subtract(document.querySelector('#num1').value, document.querySelector('#num2').value)" class="btn btn-primary" >Subtract</button>
+	</div>
+	</div>
+	<br>
+	 <div class="row">
+    <div class="col-md-6">
+	<button onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)" class="btn btn-primary" >Divide</button>
+     </div>
+	    <div class="col-md-6">
+	 	<button onclick="multiply(document.querySelector('#num1').value, document.querySelector('#num2').value)" class="btn btn-primary">Multiply</button>
 		</div>
+	</div>
     </div>
 </div>
 
