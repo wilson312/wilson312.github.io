@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "photoslides.data.unityweb",
+"asmCodeUrl": "photoslides.asm.code.unityweb",
+"asmMemoryUrl": "photoslides.asm.memory.unityweb",
+"asmFrameworkUrl": "photoslides.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
